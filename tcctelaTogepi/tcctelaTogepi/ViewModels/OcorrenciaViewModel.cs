@@ -16,12 +16,11 @@ namespace tcctelaTogepi.ViewModels
             repository = new OcorrenciaRepository();
         }
 
-        public async Task<bool> insertBD(string problema, string desc) // double lat, double long
+        public async Task<bool> insertBD(string problema, string desc, double lat, double lon) // double lat, double long
         {
             OcorrenciaModel ocorrencia = new OcorrenciaModel();
-            ocorrencia.MyProperty = "test";
-            ocorrencia.latitude = 1; // lat
-            ocorrencia.longitude = 1; // long
+            ocorrencia.latitude = lat; // lat
+            ocorrencia.longitude = lon; // long
             ocorrencia.tipoProblema = problema;
             ocorrencia.descricao = desc;
 

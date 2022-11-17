@@ -33,7 +33,7 @@ namespace tcctelaTogepi.Views
 
         private async void btnEnviar_Clicked(object sender, EventArgs e)
         {
-            var inserido = await viewModelOcorrencia.insertBD("problema 1", "descrição 1");
+            var inserido = await viewModelOcorrencia.insertBD("problema 1", "descrição 1", latituteThis, longitudeThis);
             if (inserido)
             {
                 await this.DisplayAlert("Opeação Concluida", "", "Ok");
@@ -46,27 +46,27 @@ namespace tcctelaTogepi.Views
             var location = await result;
 
             latituteThis = location.Latitude;
-            longitudeThis = location.Latitude;
+            longitudeThis = location.Longitude;
         }
 
-        private void btnVoltar_Clicked(object sender, EventArgs e)
+        private async void btnVoltar_Clicked(object sender, EventArgs e)
         {
-            this.Navigation.PopAsync();
+            await this.DisplayAlert("Latitude", $"{Convert.ToString(latituteThis)} e {Convert.ToString(longitudeThis)}", "Ok");
         }
 
         private void OpenMenu()
         {
             MenuDescricao.IsVisible = true;
 
-            Action<double> callback = input => MenuDescricao.TranslationX = input;
-            MenuDescricao.Animate("anim", callback, 0, 0, 16, 300, Easing.CubicInOut);
+            Action<double> callback = input => MenuDescricao.TranslationY = input;
+            MenuDescricao.Animate("anim", callback, 100, 0, 1, 250, Easing.CubicIn);
         }
 
 
 
         public void CloseMenu()
         {
-            Action<double> callback = input => MenuDescricao.TranslationX = input;
+            Action<double> callback = input => MenuDescricao.TranslationY = input;
             MenuDescricao.Animate("anim", callback, 0, -260, 16, 300, Easing.CubicInOut);
 
             MenuDescricao.IsVisible = false;
