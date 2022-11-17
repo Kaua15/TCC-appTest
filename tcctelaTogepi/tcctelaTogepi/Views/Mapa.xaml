@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="tcctelaTogepi.Views.Mapa">
+            
+            <!-- xmlns:maps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps" -->
+    <Grid RowSpacing="0"> 
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <maps:Map Grid.RowSpan="2" Margin="0, 0, 0, -30" IsShowingUser="True" x:Name="map">
+                
+            </maps:Map>
+            
+            
+            <ImageButton x:Name="btnMenu" Clicked="btnMenu_Clicked" Source="ic_dehaze" BorderColor="Transparent"
+                            BackgroundColor="#2B2B2B" VerticalOptions="Center" HorizontalOptions="Start" HeightRequest="45" Margin="14" CornerRadius="15" />
+        </Grid>
+        
+        <Grid Grid.Row="1" HeightRequest="62" ColumnSpacing="0" Margin="0, 0, 0, 0">
+            <BoxView Background="#2B2B2B" CornerRadius="20" Margin="0, 0, 0, -20"></BoxView>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center" Spacing="45">
+                <ImageButton x:Name="btnBuscar" Clicked="btnBuscar_ClickedAsync" Source="ic_search" BorderColor="Transparent"
+                            BackgroundColor="#2B2B2B" VerticalOptions="Center"  CornerRadius="50" Margin="5"/>
+                <ImageButton x:Name="btnHome" Clicked="btnHome_Clicked" Source="ic_home_filled" BorderColor="Transparent"
+                            BackgroundColor="#2B2B2B" VerticalOptions="Center"  CornerRadius="50" Margin="5"/>
+                <ImageButton x:Name="btnSend" Clicked="btnSend_Clicked" Source="ic_near_me" BorderColor="Transparent"
+                            BackgroundColor="#2B2B2B" VerticalOptions="Center" CornerRadius="50" Margin="5" />
+
+
+                </StackLayout>
+        </Grid>
+
+        <Grid x:Name="MenuGrid" IsVisible="false">
+            <BoxView x:Name="MenuOverlay" BackgroundColor="Black" Opacity="0.35">
+                <BoxView.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OverlayTapped"/>
+                </BoxView.GestureRecognizers>
+            </BoxView>
+            <Grid x:Name="MenuView" WidthRequest="260" BackgroundColor="#2B2B2B" HorizontalOptions="Start" Margin="0, 0, 0, 62">
+                <Grid.Clip>
+                    <RoundRectangleGeometry Rect="0, 0, 260, 600" CornerRadius="0, 0, 0, 10"/>
+                </Grid.Clip>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                </Grid>
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Start" Spacing="0">
+
+                    <Image Source="ic_warning" HeightRequest="100" Margin="10"/>
+                    <BoxView BackgroundColor="#454343" HeightRequest="0.4" />
+                    <Button Text="Login" BackgroundColor="#2B2B2B" TextColor="#fff" FontSize="10" WidthRequest="260" Padding="0, 20"/>
+                    <BoxView BackgroundColor="#454343" HeightRequest="0.4" />
+                    <Button  Text="Configurações" BackgroundColor="#2B2B2B" TextColor="#fff" FontSize="10" WidthRequest="260" Padding="0, 20"/>
+                    <BoxView BackgroundColor="#454343" HeightRequest="0.4" />
+                    <Button  Text="Relatar Problema" BackgroundColor="#2B2B2B" TextColor="#fff" FontSize="10" WidthRequest="260" Padding="0, 20"/>
+                </StackLayout>
+
+                <Grid Grid.Row="1" VerticalOptions="End" Margin="0, 0, 0, 0" HorizontalOptions="FillAndExpand" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="5*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <BoxView BackgroundColor="#454343" HeightRequest="0.4" VerticalOptions="Center" Margin="20, 0"/>
+                    <Button Grid.Row="1" Text="Sobre nós" BackgroundColor="#454343" TextColor="#fff" FontSize="12" FontAttributes="Bold" Padding="0, 0, 0, 0"/>
+                </Grid>
+                <!--
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="20">
+                    <StackLayout Orientation="Horizontal" Spacing="20">
+                        <Grid Grid.Row="2" HorizontalOptions="Start" VerticalOptions="Start" HeightRequest="46" WidthRequest="46">
+                            <Ellipse WidthRequest="46" HeightRequest="46" Fill="White" Opacity="0.5"/>
+                        </Grid>
+                        <Label Text="Home" TextColor="White" FontSize="16" VerticalOptions="Center" FontFamily="NormalFont"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="20">
+                        <Grid Grid.Row="2" HorizontalOptions="Start" VerticalOptions="Start" HeightRequest="46" WidthRequest="46">
+                            <Ellipse WidthRequest="46" HeightRequest="46" Fill="White" Opacity="0.5"/>
+                        </Grid>
+                        <Label Text="Home" TextColor="White" FontSize="16" VerticalOptions="Center" FontFamily="NormalFont"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="20">
+                        <Grid Grid.Row="2" HorizontalOptions="Start" VerticalOptions="Start" HeightRequest="46" WidthRequest="46">
+                            <Ellipse WidthRequest="46" HeightRequest="46" Fill="White" Opacity="0.5"/>
+                        </Grid>
+                        <Label Text="Home" TextColor="White" FontSize="16" VerticalOptions="Center" FontFamily="NormalFont"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="20">
+                        <Grid Grid.Row="2" HorizontalOptions="Start" VerticalOptions="Start" HeightRequest="46" WidthRequest="46">
+                            <Ellipse WidthRequest="46" HeightRequest="46" Fill="White" Opacity="0.5"/>
+                        </Grid>
+                        <Label Text="Home" TextColor="White" FontSize="16" VerticalOptions="Center" FontFamily="NormalFont"/>
+                    </StackLayout>
+                </StackLayout>
+                -->
+            </Grid>
+            
+        </Grid>
+    </Grid>
+</ContentPage>

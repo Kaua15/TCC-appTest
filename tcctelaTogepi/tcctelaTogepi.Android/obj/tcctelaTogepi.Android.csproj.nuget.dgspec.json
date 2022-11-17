@@ -1,0 +1,143 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projetos\\tcc-toge\\tcctelaTogepi-atual\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.Android\\tcctelaTogepi.Android.csproj": {}
+  },
+  "projects": {
+    "D:\\Projetos\\tcc-toge\\tcctelaTogepi-atual\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.Android\\tcctelaTogepi.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projetos\\tcc-toge\\tcctelaTogepi-atual\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.Android\\tcctelaTogepi.Android.csproj",
+        "projectName": "tcctelaTogepi.Android",
+        "projectPath": "D:\\Projetos\\tcc-toge\\tcctelaTogepi-atual\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.Android\\tcctelaTogepi.Android.csproj",
+        "packagesPath": "C:\\Users\\etechas\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\tcc-toge\\tcctelaTogepi-atual\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\etechas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid12.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid12.0": {
+            "projectReferences": {
+              "D:\\Projetos\\tcc-toge\\tcctelaTogepi-atual\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj": {
+                "projectPath": "D:\\Projetos\\tcc-toge\\tcctelaTogepi-atual\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid12.0": {
+          "dependencies": {
+            "FirebaseDatabase.net": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.3, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2515, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[5.0.0.2196, )"
+            }
+          }
+        }
+      }
+    },
+    "D:\\Projetos\\tcc-toge\\tcctelaTogepi-atual\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projetos\\tcc-toge\\tcctelaTogepi-atual\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj",
+        "projectName": "tcctelaTogepi",
+        "projectPath": "D:\\Projetos\\tcc-toge\\tcctelaTogepi-atual\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj",
+        "packagesPath": "C:\\Users\\etechas\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\tcc-toge\\tcctelaTogepi-atual\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\etechas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "FirebaseDatabase.net": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.3, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2515, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[5.0.0.2196, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
