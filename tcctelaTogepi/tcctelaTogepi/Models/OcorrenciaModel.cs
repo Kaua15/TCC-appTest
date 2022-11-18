@@ -10,5 +10,6 @@ namespace tcctelaTogepi.Models
         public string descricao { get; set; }
         public double latitude { get; set; }
         public double longitude { get; set; }
+        public string Id { get; internal set; }
     }
 }

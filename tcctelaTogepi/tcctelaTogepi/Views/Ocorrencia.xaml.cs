@@ -21,7 +21,8 @@ namespace tcctelaTogepi.Views
 
         public double latituteThis;
         public double longitudeThis;
-
+        public string tipoProblema;
+        public string descricaoProblema;
         public Ocorrencia()
         {
             InitializeComponent();
@@ -33,7 +34,7 @@ namespace tcctelaTogepi.Views
 
         private async void btnEnviar_Clicked(object sender, EventArgs e)
         {
-            var inserido = await viewModelOcorrencia.insertBD("problema 1", "descrição 1", latituteThis, longitudeThis);
+            var inserido = await viewModelOcorrencia.insertBD(this.tipoProblema, descricaoProblema, latituteThis, longitudeThis);
             if (inserido)
             {
                 await this.DisplayAlert("Opeação Concluida", "", "Ok");
@@ -51,7 +52,7 @@ namespace tcctelaTogepi.Views
 
         private async void btnVoltar_Clicked(object sender, EventArgs e)
         {
-            await this.DisplayAlert("Latitude", $"{Convert.ToString(latituteThis)} e {Convert.ToString(longitudeThis)}", "Ok");
+            await Navigation.PopAsync();
         }
 
         private void OpenMenu()
@@ -67,8 +68,7 @@ namespace tcctelaTogepi.Views
         public void CloseMenu()
         {
             Action<double> callback = input => MenuDescricao.TranslationY = input;
-            MenuDescricao.Animate("anim", callback, 0, -260, 16, 300, Easing.CubicInOut);
-
+            MenuDescricao.Animate("anim", callback, 0, 100, 16, 300, Easing.CubicInOut);
             MenuDescricao.IsVisible = false;
         }
 
@@ -84,7 +84,38 @@ namespace tcctelaTogepi.Views
 
         private void btnDescConcluido_Clicked(object sender, EventArgs e)
         {
+            this.descricaoProblema = txtDescricao.Text;
+
             CloseMenu();
+        }
+
+        private void btnProblema1_Clicked(object sender, EventArgs e)
+        {
+            this.tipoProblema = "Queda de Arvore";
+
+            MenuTipoProblema.IsVisible = false;
+        }
+
+        private void btnProblema2_Clicked(object sender, EventArgs e)
+        {
+            this.tipoProblema = "Enchente";
+
+            MenuTipoProblema.IsVisible = false;
+        }
+
+        private void btnProblema3_Clicked(object sender, EventArgs e)
+        {
+            this.tipoProblema = "Queimada";
+
+            MenuTipoProblema.IsVisible = false;
+        }
+
+        private void ImageButton_Clicked(object sender, EventArgs e)
+        {
+            MenuTipoProblema.IsVisible = true;
+
+            Action<double> callback = input => MenuTipoProblema.TranslationY = input;
+            MenuTipoProblema.Animate("anim", callback, 100, 0, 1, 250, Easing.CubicIn);
         }
     }
 }

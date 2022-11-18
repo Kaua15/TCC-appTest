@@ -36,8 +36,8 @@
                 <BoxView BackgroundColor="#454343" HeightRequest="1" HorizontalOptions="Center" WidthRequest="300"></BoxView>
                 <Grid>
                     <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Margin="10">
-                        <Image Source="ic_warning" HeightRequest="100"/>
-                        <Label Text="Tipo de Alerta" TextColor="#fff"/>
+                        <ImageButton Source="ic_warning" HeightRequest="100" BackgroundColor="#33FF77" CornerRadius="50" Margin="10" Clicked="ImageButton_Clicked"/>
+                        <Label Text="Tipo de Alerta" TextColor="#fff" HorizontalOptions="Center" VerticalOptions="Center" FontSize="20"/>
                     </StackLayout>
 
 
@@ -77,11 +77,11 @@
                             <RowDefinition Height="Auto"/>
                         </Grid.RowDefinitions>
                         <BoxView BackgroundColor="#565343" HeightRequest="0.4" VerticalOptions="Center" Margin="20, 0"/>
-                        <Button VerticalOptions="End" Grid.Row="1" Text="Concluido" BackgroundColor="#454343" TextColor="#fff" FontSize="12" FontAttributes="Bold" Padding="0, 0, 0, 0" Clicked="btnDescConcluido_Clicked"/>
+                        <Button  VerticalOptions="End" Grid.Row="1" Text="Concluido" BackgroundColor="#454343" TextColor="#fff" FontSize="12" FontAttributes="Bold" Padding="0, 0, 0, 0" Clicked="btnDescConcluido_Clicked"/>
                         <StackLayout>
-                            <Label Text="Descrição do Problema" FontSize="30" TextColor="#fff" FontAttributes="Bold" Margin="25" />
+                            <Label Text="Descrição do Problema" FontSize="27" TextColor="#fff" FontAttributes="Bold" Margin="25" HorizontalOptions="Center"/>
                             <Frame BackgroundColor="#393939" CornerRadius="20">
-                                <Entry  VerticalOptions="Center" HorizontalOptions="Center" TextColor="#fff"/>
+                                <Editor x:Name="txtDescricao" VerticalOptions="Start" TextColor="#fff" HeightRequest="300" MaxLength="255" AutoSize="TextChanges"/>
                             </Frame>
                         </StackLayout>
                     </Grid>
@@ -90,6 +90,26 @@
                 </Grid>
             </Frame>
             
+        </Grid>
+
+        <Grid x:Name="MenuTipoProblema"
+              IsVisible="false"
+              VerticalOptions="FillAndExpand"
+              HorizontalOptions="FillAndExpand"
+              Grid.RowSpan="2">
+            <BoxView x:Name="MenuOverlayTipoProblema" Opacity="0.34">
+                <BoxView.GestureRecognizers>
+                    <TapGestureRecognizer/>
+                </BoxView.GestureRecognizers>
+            </BoxView>
+            <Frame BackgroundColor="#454343" CornerRadius="20" HeightRequest="400" VerticalOptions="End" Margin="0, 0, 0, -20">
+                <StackLayout HeightRequest="400" HorizontalOptions="Center" VerticalOptions="Center">
+                    <ImageButton x:Name="btnProblema1" Clicked="btnProblema1_Clicked" Margin="10" BackgroundColor="#fff" Source="ic_sms" HeightRequest="100" CornerRadius="20" VerticalOptions="Center" HorizontalOptions="Center"/>
+                    <ImageButton x:Name="btnProblema2" Clicked="btnProblema2_Clicked" Margin="10" BackgroundColor="#fff" Source="ic_sms" HeightRequest="100" CornerRadius="20" VerticalOptions="Center" HorizontalOptions="Center"/>
+                    <ImageButton x:Name="btnProblema3" Clicked="btnProblema3_Clicked" Margin="10" BackgroundColor="#fff" Source="ic_sms" HeightRequest="100" CornerRadius="20" VerticalOptions="Center" HorizontalOptions="Center"/>
+                </StackLayout >
+            </Frame>
+
         </Grid>
     </Grid>
 </ContentPage>

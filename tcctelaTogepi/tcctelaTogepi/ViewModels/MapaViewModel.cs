@@ -48,6 +48,8 @@ namespace tcctelaTogepi.ViewModels
                 await Application.Current.MainPage.DisplayAlert("Erro", ex.Message, "Ok");
             }
         }
+
+
     }
 
     

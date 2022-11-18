@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using tcctelaTogepi.Models;
@@ -20,6 +21,18 @@ namespace tcctelaTogepi
                 return true;
             }
             return false;
+        }
+
+        public async Task<List<OcorrenciaModel>>GetAll()
+        {
+            return (await firebaseClient.Child(nameof(OcorrenciaModel)).OnceAsync<OcorrenciaModel>()).Select(item => new OcorrenciaModel
+            {
+                tipoProblema = item.Object.tipoProblema,
+                descricao = item.Object.descricao,
+                latitude = item.Object.latitude,
+                longitude = item.Object.longitude,
+                Id = item.Key
+            }).ToList();
         }
     }
 }

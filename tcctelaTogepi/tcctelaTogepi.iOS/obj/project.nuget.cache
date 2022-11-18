@@ -1,21 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "N6XaKZQHoapUWwWi4zgqRfWpA1V1OVtmLDZNxlPG0BXPM17H/QhDQK/+u1f7xhPIiQaU9cXNtMJIgypU6/27OA==",
+  "dgSpecHash": "taI3VkK77wVun09OYwre2DK9qeYueEg6JagcIQHDu+xh5Rgiw6uLZxe2ElTwpkmoTPuu6Q3XTvs2tknBCRw8dQ==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\tcctoge2\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.iOS\\tcctelaTogepi.iOS.csproj",
+  "projectFilePath": "C:\\Users\\dilma\\Desktop\\TCC-kaua\\projeto-git\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.iOS\\tcctelaTogepi.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\etechas\\.nuget\\packages\\firebasedatabase.net\\4.1.0\\firebasedatabase.net.4.1.0.nupkg.sha512",
-    "C:\\Users\\etechas\\.nuget\\packages\\litedb\\4.1.4\\litedb.4.1.4.nupkg.sha512",
-    "C:\\Users\\etechas\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\etechas\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\etechas\\.nuget\\packages\\system.reactive\\4.0.0\\system.reactive.4.0.0.nupkg.sha512",
-    "C:\\Users\\etechas\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
-    "C:\\Users\\etechas\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
-    "C:\\Users\\etechas\\.nuget\\packages\\system.runtime.interopservices.windowsruntime\\4.3.0\\system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
-    "C:\\Users\\etechas\\.nuget\\packages\\xamarin.communitytoolkit\\2.0.5\\xamarin.communitytoolkit.2.0.5.nupkg.sha512",
-    "C:\\Users\\etechas\\.nuget\\packages\\xamarin.essentials\\1.7.3\\xamarin.essentials.1.7.3.nupkg.sha512",
-    "C:\\Users\\etechas\\.nuget\\packages\\xamarin.forms\\5.0.0.2515\\xamarin.forms.5.0.0.2515.nupkg.sha512",
-    "C:\\Users\\etechas\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2196\\xamarin.forms.maps.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\dilma\\.nuget\\packages\\firebasedatabase.net\\4.1.0\\firebasedatabase.net.4.1.0.nupkg.sha512",
+    "C:\\Users\\dilma\\.nuget\\packages\\litedb\\4.1.4\\litedb.4.1.4.nupkg.sha512",
+    "C:\\Users\\dilma\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\dilma\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\dilma\\.nuget\\packages\\system.reactive\\4.0.0\\system.reactive.4.0.0.nupkg.sha512",
+    "C:\\Users\\dilma\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\dilma\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\dilma\\.nuget\\packages\\system.runtime.interopservices.windowsruntime\\4.3.0\\system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
+    "C:\\Users\\dilma\\.nuget\\packages\\xamarin.communitytoolkit\\2.0.5\\xamarin.communitytoolkit.2.0.5.nupkg.sha512",
+    "C:\\Users\\dilma\\.nuget\\packages\\xamarin.essentials\\1.7.3\\xamarin.essentials.1.7.3.nupkg.sha512",
+    "C:\\Users\\dilma\\.nuget\\packages\\xamarin.forms\\5.0.0.2515\\xamarin.forms.5.0.0.2515.nupkg.sha512",
+    "C:\\Users\\dilma\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2196\\xamarin.forms.maps.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }

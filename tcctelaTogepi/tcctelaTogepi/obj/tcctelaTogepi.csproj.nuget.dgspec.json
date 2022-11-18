@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\tcctoge2\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj": {}
+    "C:\\Users\\dilma\\Desktop\\TCC-kaua\\projeto-git\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\tcctoge2\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj": {
+    "C:\\Users\\dilma\\Desktop\\TCC-kaua\\projeto-git\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\tcctoge2\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj",
+        "projectUniqueName": "C:\\Users\\dilma\\Desktop\\TCC-kaua\\projeto-git\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj",
         "projectName": "tcctelaTogepi",
-        "projectPath": "D:\\Projetos\\tcctoge2\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj",
-        "packagesPath": "C:\\Users\\etechas\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\tcctoge2\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\obj\\",
+        "projectPath": "C:\\Users\\dilma\\Desktop\\TCC-kaua\\projeto-git\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj",
+        "packagesPath": "C:\\Users\\dilma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dilma\\Desktop\\TCC-kaua\\projeto-git\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\etechas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dilma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -9,6 +9,7 @@ using Xamarin.Forms.Xaml;
 using Xamarin.Essentials;
 using Firebase.Database;
 using Xamarin.CommunityToolkit.Extensions;
+using Xamarin.Forms.Maps;
 
 namespace tcctelaTogepi.Views
 {
@@ -16,10 +17,11 @@ namespace tcctelaTogepi.Views
     public partial class Mapa : ContentPage
     {
         MapaViewModel viewModel;
-
+        OcorrenciaRepository ocorrenciaRepository = new OcorrenciaRepository();
         public Mapa()
         {
             InitializeComponent();
+            //var ocorrencias = await ocorrenciaRepository.GetAll();
 
             viewModel = new MapaViewModel();
             BindingContext = viewModel;
@@ -36,6 +38,23 @@ namespace tcctelaTogepi.Views
             App.Current.MainPage.Navigation.PushAsync(page);
         }
 
+        protected override async void OnAppearing()
+        {
+            var ocorrencias = await ocorrenciaRepository.GetAll();
+            foreach(Models.OcorrenciaModel o in ocorrencias)
+            {
+                await this.DisplayToastAsync(o.descricao, 1000);
+                Pin pin = new Pin()
+                {
+                    Type = PinType.Place,
+                    Label = o.descricao,
+                    Position = new Position(o.latitude, o.longitude)
+                };
+                map.Pins.Add(pin);
+
+            }
+
+        }
         
 
         private void OpenMenu()
