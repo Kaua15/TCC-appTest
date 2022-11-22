@@ -14,6 +14,8 @@ namespace tcctelaTogepi.ViewModels
         public MapaViewModel()
         {
             mapa = new Map();
+
+
         }
 
 

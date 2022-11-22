@@ -3806,20 +3806,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dilma\\.nuget\\packages\\": {}
+    "C:\\Users\\etechas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dilma\\Desktop\\TCC-kaua\\projeto-git\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.Android\\tcctelaTogepi.Android.csproj",
+      "projectUniqueName": "D:\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.Android\\tcctelaTogepi.Android.csproj",
       "projectName": "tcctelaTogepi.Android",
-      "projectPath": "C:\\Users\\dilma\\Desktop\\TCC-kaua\\projeto-git\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.Android\\tcctelaTogepi.Android.csproj",
-      "packagesPath": "C:\\Users\\dilma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dilma\\Desktop\\TCC-kaua\\projeto-git\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.Android\\obj\\",
+      "projectPath": "D:\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.Android\\tcctelaTogepi.Android.csproj",
+      "packagesPath": "C:\\Users\\etechas\\.nuget\\packages\\",
+      "outputPath": "D:\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\dilma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\etechas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3832,8 +3832,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "C:\\Users\\dilma\\Desktop\\TCC-kaua\\projeto-git\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj": {
-              "projectPath": "C:\\Users\\dilma\\Desktop\\TCC-kaua\\projeto-git\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj"
+            "D:\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj": {
+              "projectPath": "D:\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj"
             }
           }
         }

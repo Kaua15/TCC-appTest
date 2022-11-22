@@ -2,9 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
              NavigationPage.HasNavigationBar="False"
-             x:Class="tcctelaTogepi.Views.Mapa">
-            
-            <!-- xmlns:maps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps" -->
+             x:Class="tcctelaTogepi.Views.Mapa"
+             xmlns:local="clr-namespace:CustomRenderer;assembly=CustomRenderer" xmlns:local1="clr-namespace:tcctelaTogepi.Models">
+
+    <!-- xmlns:maps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps" -->
     <Grid RowSpacing="0"> 
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
@@ -17,10 +18,10 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <maps:Map Grid.RowSpan="2" Margin="0, 0, 0, -30" IsShowingUser="True" x:Name="map">
+            <local1:CustomMap Grid.RowSpan="2" Margin="0, 0, 0, -30" IsShowingUser="True" x:Name="map">
                 
-            </maps:Map>
-            
+            </local1:CustomMap>
+
             
             <ImageButton x:Name="btnMenu" Clicked="btnMenu_Clicked" Source="ic_dehaze" BorderColor="Transparent"
                             BackgroundColor="#2B2B2B" VerticalOptions="Center" HorizontalOptions="Start" HeightRequest="45" Margin="14" CornerRadius="50" />

@@ -10,6 +10,7 @@ using Xamarin.Essentials;
 using Firebase.Database;
 using Xamarin.CommunityToolkit.Extensions;
 using Xamarin.Forms.Maps;
+using tcctelaTogepi.Models;
 
 namespace tcctelaTogepi.Views
 {
@@ -22,6 +23,8 @@ namespace tcctelaTogepi.Views
         {
             InitializeComponent();
             //var ocorrencias = await ocorrenciaRepository.GetAll();
+
+
 
             viewModel = new MapaViewModel();
             BindingContext = viewModel;
@@ -43,12 +46,12 @@ namespace tcctelaTogepi.Views
             var ocorrencias = await ocorrenciaRepository.GetAll();
             foreach(Models.OcorrenciaModel o in ocorrencias)
             {
-                await this.DisplayToastAsync(o.descricao, 1000);
                 Pin pin = new Pin()
                 {
                     Type = PinType.Place,
-                    Label = o.descricao,
-                    Position = new Position(o.latitude, o.longitude)
+                    Label = o.tipoProblema,
+                    Position = new Position(o.latitude, o.longitude),
+                    Address = o.descricao
                 };
                 map.Pins.Add(pin);
 
