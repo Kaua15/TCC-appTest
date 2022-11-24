@@ -37,7 +37,7 @@ namespace tcctelaTogepi.Views
             var inserido = await viewModelOcorrencia.insertBD(this.tipoProblema, descricaoProblema, latituteThis, longitudeThis);
             if (inserido)
             {
-                await this.DisplayAlert("Opeação Concluida", "", "Ok");
+                await Navigation.PopAsync();
             }
         }
 

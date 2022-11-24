@@ -94,5 +94,11 @@ namespace tcctelaTogepi.Views
         {
             await this.DisplayToastAsync("Hello, World", 10000);
         }
+
+        private void btnSobre_Clicked(object sender, EventArgs e)
+        {
+            var pageSobre = new Sobre();
+            App.Current.MainPage.Navigation.PushAsync(pageSobre);
+        }
     }
 }

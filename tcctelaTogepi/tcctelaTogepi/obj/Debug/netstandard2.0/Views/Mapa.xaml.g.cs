@@ -41,6 +41,9 @@ namespace tcctelaTogepi.Views {
         private global::Xamarin.Forms.Grid MenuView;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Button btnSobre;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Mapa));
             map = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::tcctelaTogepi.Models.CustomMap>(this, "map");
@@ -51,6 +54,7 @@ namespace tcctelaTogepi.Views {
             MenuGrid = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Grid>(this, "MenuGrid");
             MenuOverlay = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.BoxView>(this, "MenuOverlay");
             MenuView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Grid>(this, "MenuView");
+            btnSobre = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "btnSobre");
         }
     }
 }

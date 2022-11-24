@@ -49,7 +49,7 @@
             </BoxView>
             <Grid x:Name="MenuView" WidthRequest="260" BackgroundColor="#2B2B2B" HorizontalOptions="Start" Margin="0, 0, 0, 62">
                 <Grid.Clip>
-                    <RoundRectangleGeometry Rect="0, 0, 260, 600" CornerRadius="0, 0, 0, 10"/>
+                    <RoundRectangleGeometry Rect="0, 0, 260, 600" CornerRadius="0, 0, 0, 30"/>
                 </Grid.Clip>
                 <Grid>
                     <Grid.RowDefinitions>
@@ -74,7 +74,7 @@
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
                     <BoxView BackgroundColor="#454343" HeightRequest="0.4" VerticalOptions="Center" Margin="20, 0"/>
-                    <Button Grid.Row="1" Text="Sobre nós" BackgroundColor="#454343" TextColor="#fff" FontSize="12" FontAttributes="Bold" Padding="0, 0, 0, 0"/>
+                    <Button x:Name="btnSobre" Clicked="btnSobre_Clicked" Grid.Row="1" Text="Sobre" BackgroundColor="#454343" TextColor="#fff" FontSize="12" FontAttributes="Bold" Padding="0, 0, 0, 0" />
                 </Grid>
                 <!--
                 <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="20">

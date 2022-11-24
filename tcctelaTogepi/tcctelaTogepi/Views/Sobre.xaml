@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tcctelaTogepi.Views.Sobre"
+             BackgroundColor="#2B2B2B"
+             NavigationPage.HasNavigationBar="False">
+
+    <Grid RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="72"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid>
+            <ImageButton x:Name="btnVoltarPagina" Source="ic_arrow_back_ios"
+        BackgroundColor="#2B2B2B" VerticalOptions="Center" HorizontalOptions="Start" Margin="10" CornerRadius="14" Clicked="btnVoltarPagina_Clicked"/>
+        </Grid>
+    </Grid>
+
+
+</ContentPage>
