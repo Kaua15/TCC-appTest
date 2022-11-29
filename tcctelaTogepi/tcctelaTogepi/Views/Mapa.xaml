@@ -61,11 +61,11 @@
 
                     <Image Source="ic_warning" HeightRequest="100" Margin="10"/>
                     <BoxView BackgroundColor="#454343" HeightRequest="0.4" />
-                    <Button Text="Login" BackgroundColor="#2B2B2B" TextColor="#fff" FontSize="10" WidthRequest="260" Padding="0, 20"/>
+                    <Button  x:Name="btnLogin" Clicked="btnLogin_Clicked" Text="Login" BackgroundColor="#2B2B2B" TextColor="#fff" FontSize="10" WidthRequest="260" Padding="0, 20"/>
                     <BoxView BackgroundColor="#454343" HeightRequest="0.4" />
-                    <Button  Text="Configurações" BackgroundColor="#2B2B2B" TextColor="#fff" FontSize="10" WidthRequest="260" Padding="0, 20"/>
+                    <Button  x:Name="btnConfig" Clicked="btnConfig_Clicked" Text="Configurações" BackgroundColor="#2B2B2B" TextColor="#fff" FontSize="10" WidthRequest="260" Padding="0, 20"/>
                     <BoxView BackgroundColor="#454343" HeightRequest="0.4" />
-                    <Button  Text="Relatar Problema" BackgroundColor="#2B2B2B" TextColor="#fff" FontSize="10" WidthRequest="260" Padding="0, 20"/>
+                    <Button  x:Name="btnRelatar" Clicked="btnRelatar_Clicked" Text="Relatar Problema" BackgroundColor="#2B2B2B" TextColor="#fff" FontSize="10" WidthRequest="260" Padding="0, 20"/>
                 </StackLayout>
 
                 <Grid Grid.Row="1" VerticalOptions="End" Margin="0, 0, 0, 0" HorizontalOptions="FillAndExpand" >

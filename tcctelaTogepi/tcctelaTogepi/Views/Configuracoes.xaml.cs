@@ -10,11 +10,16 @@ using Xamarin.Forms.Xaml;
 namespace tcctelaTogepi.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Configuracao : ContentPage
+    public partial class Configuracoes : ContentPage
     {
-        public Configuracao()
+        public Configuracoes()
         {
             InitializeComponent();
+        }
+
+        private async void btnVoltar_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PopAsync();
         }
     }
 }

@@ -92,7 +92,6 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\tcctelaTogepi\tcctelaTogepi.csproj">
       <Project>{D4E3B427-EB74-4AC0-8AD8-B58F5326DFBF}</Project>

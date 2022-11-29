@@ -100,5 +100,23 @@ namespace tcctelaTogepi.Views
             var pageSobre = new Sobre();
             App.Current.MainPage.Navigation.PushAsync(pageSobre);
         }
+
+        private void btnLogin_Clicked(object sender, EventArgs e)
+        {
+            var pageSobre = new Login();
+            App.Current.MainPage.Navigation.PushAsync(pageSobre);
+        }
+
+        private void btnConfig_Clicked(object sender, EventArgs e)
+        {
+            var pageSobre = new Configuracoes();
+            App.Current.MainPage.Navigation.PushAsync(pageSobre);
+        }
+
+        private void btnRelatar_Clicked(object sender, EventArgs e)
+        {
+            var pageSobre = new Configuracoes();
+            App.Current.MainPage.Navigation.PushAsync(pageSobre);
+        }
     }
 }

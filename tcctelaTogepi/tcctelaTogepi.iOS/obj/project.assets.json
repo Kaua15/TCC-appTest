@@ -1773,11 +1773,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\TCC---Togepi\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.iOS\\tcctelaTogepi.iOS.csproj",
+      "projectUniqueName": "D:\\Projetos\\tccTogepi\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.iOS\\tcctelaTogepi.iOS.csproj",
       "projectName": "tcctelaTogepi.iOS",
-      "projectPath": "D:\\Projetos\\TCC---Togepi\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.iOS\\tcctelaTogepi.iOS.csproj",
+      "projectPath": "D:\\Projetos\\tccTogepi\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.iOS\\tcctelaTogepi.iOS.csproj",
       "packagesPath": "C:\\Users\\etechas\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\TCC---Togepi\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.iOS\\obj\\",
+      "outputPath": "D:\\Projetos\\tccTogepi\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1794,8 +1794,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\Projetos\\TCC---Togepi\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj": {
-              "projectPath": "D:\\Projetos\\TCC---Togepi\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj"
+            "D:\\Projetos\\tccTogepi\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj": {
+              "projectPath": "D:\\Projetos\\tccTogepi\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj"
             }
           }
         }

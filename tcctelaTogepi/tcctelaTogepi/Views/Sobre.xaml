@@ -11,10 +11,32 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <Grid>
+        <Grid >
             <ImageButton x:Name="btnVoltarPagina" Source="ic_arrow_back_ios"
         BackgroundColor="#2B2B2B" VerticalOptions="Center" HorizontalOptions="Start" Margin="10" CornerRadius="14" Clicked="btnVoltarPagina_Clicked"/>
         </Grid>
+
+        <Grid Grid.Row="1"  HorizontalOptions="Center" VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <StackLayout  >
+                <Label Text="Sobre" VerticalOptions="Center" TextColor="#fff" FontSize="64" FontAttributes="Bold" HorizontalTextAlignment="Center" Margin="30"/>
+                <Label Text="Aplicação mobile realizada para o trabalho de conclusão de curso(TCC) do 3º ano do curso de Desenvolvimento de Sistemas da escola Etec Horácio Augusto da Silveira." TextColor="#fff" FontSize="14" HorizontalTextAlignment="Center" Margin="20"></Label>
+                <Label Text="O aplicativo tem o objetivo se informar os usuarios dos problemas ambientais em tal momento nas proximidades do mesmo. O app funciona com a interação usuario e aplicativo, onde o usuario envia ocorrencias de problemas e após analise o ponto é inserido no mapa para propagação da informação
+" TextColor="#fff" FontSize="14" HorizontalTextAlignment="Center" Margin="20"></Label>
+            </StackLayout>
+
+            <Frame Grid.Row="1" BackgroundColor="#393939" VerticalOptions="Center" HorizontalOptions="Center" CornerRadius="9000" Margin="20">
+                <StackLayout  Orientation="Horizontal" BackgroundColor="#393939" VerticalOptions="Center" HorizontalOptions="Center">
+                    <ImageButton x:Name="btnInstragram" Margin="10, 0, 10, 0" BackgroundColor="#393939" Source="ic_sms" HeightRequest="50" CornerRadius="20" VerticalOptions="Center" HorizontalOptions="Center"/>
+                    <ImageButton x:Name="btnSite" Margin="10, 0, 10, 0" BackgroundColor="#393939" Source="ic_sms" HeightRequest="50" CornerRadius="20" VerticalOptions="Center" HorizontalOptions="Center"/>
+                </StackLayout>
+            </Frame>
+            
+        </Grid>
+        
     </Grid>
 
 

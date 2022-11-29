@@ -8,17 +8,21 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("tcctelaTogepi.Views.Configuracoes.xaml", "Views/Configuracoes.xaml", typeof(global::tcctelaTogepi.Views.Configura))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("tcctelaTogepi.Views.Configuracoes.xaml", "Views/Configuracoes.xaml", typeof(global::tcctelaTogepi.Views.Configuracoes))]
 
 namespace tcctelaTogepi.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Configuracoes.xaml")]
-    public partial class Configura : global::Xamarin.Forms.ContentPage {
+    public partial class Configuracoes : global::Xamarin.Forms.ContentPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.ImageButton btnVoltar;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Configura));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Configuracoes));
+            btnVoltar = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ImageButton>(this, "btnVoltar");
         }
     }
 }
