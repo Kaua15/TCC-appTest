@@ -42,7 +42,7 @@
         </Grid>
 
         <Grid x:Name="MenuGrid" IsVisible="false">
-            <BoxView x:Name="MenuOverlay" BackgroundColor="Black" Opacity="0.35">
+            <BoxView x:Name="MenuOverlay" >
                 <BoxView.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OverlayTapped"/>
                 </BoxView.GestureRecognizers>

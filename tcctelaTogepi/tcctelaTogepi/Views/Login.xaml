@@ -16,27 +16,27 @@
         BackgroundColor="#2B2B2B" VerticalOptions="Center" HorizontalOptions="Start" Margin="10" CornerRadius="14" />
         </Grid>
 
-        <Grid Grid.Row="1">
+        <Grid Grid.Row="1" Margin="2, 20, 2, 0">
             <StackLayout>
-                <Image Source="ic_warning" HeightRequest="110" HorizontalOptions="Start" Margin="10, 0, 10, 0"/>
-                <Label Text="Bem vindo ao Navigation Safe" TextColor="#fff" FontSize="46" FontAttributes="Bold" Margin="20, 0, 20, 0"/>
+                <Image Source="ic_launcher" HeightRequest="110" HorizontalOptions="Start" Margin="10, 0, 10, 0"/>
+                <Label Text="Bem vindo ao Navigation Safe" TextColor="#fff" FontSize="29" FontAttributes="Bold" Margin="20, 0, 20, 0"/>
                 <Frame BackgroundColor="#393939" CornerRadius="20" HorizontalOptions="FillAndExpand" Margin="20, 20, 20, 0">
-                    <StackLayout Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="Center">
-                        <Image Source="ic_sms" HeightRequest="40"/>
+                    <StackLayout Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="Center" Padding="-10">
+                        <Image Source="ic_email" HeightRequest="30"/>
                         <Editor x:Name="txtLogin" TextColor="#fff" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="250"/>
                     </StackLayout>
                 </Frame>
                 
                 <Frame BackgroundColor="#393939" CornerRadius="20" HorizontalOptions="FillAndExpand" Margin="20, 20, 20, 0">
-                    <StackLayout Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="Center">
-                        <Image Source="ic_sms" HeightRequest="40"/>
+                    <StackLayout Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="Center" Padding="-10">
+                        <Image Source="ic_vpn_key" HeightRequest="30"/>
                         <Editor x:Name="txtSenha" TextColor="#fff" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="250"/>
                     </StackLayout>
                 </Frame>
-                <Button x:Name="btnEntrar" Padding="15" Margin="20, 20, 20, 0" BackgroundColor="#33FF77" TextColor="#2B2B2B" CornerRadius="9999" Text="Entrar" FontAttributes="Bold" FontSize="20"/>
+                <Button x:Name="btnEntrar" Padding="12" Margin="20, 20, 20, 0" BackgroundColor="#33FF77" TextColor="#2B2B2B" CornerRadius="9999" Text="Entrar" FontAttributes="Bold" FontSize="13"/>
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center"  VerticalOptions="Center">
-                    <Label Text="não possui conta?" TextColor="#605F5F"/>
-                    <Button Text="registra-se" BackgroundColor="Transparent" Margin="0, -15, 0, 0" TextColor="#33FF77"/>
+                    <Label Text="não possui conta?" TextColor="#605F5F" FontSize="10"/>
+                    <Button Text="registra-se" BackgroundColor="Transparent" Margin="0, -15, 0, 0" TextColor="#33FF77" FontSize="10"/>
                 </StackLayout>
             </StackLayout>
         </Grid>

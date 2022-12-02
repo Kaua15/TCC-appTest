@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.tcctelatogepi">
-    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="31" />
-    <application android:label="tcctelaTogepi.Android" android:theme="@style/MainTheme">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="br.com.grupoTogepi.NavigationSafe" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="31" />
+	<application android:label="Navigation Safe" android:theme="@style/MainTheme" android:icon="@drawable/ic_iconAPP">
 		<uses-library android:name="org.apache.http.legacy" android:required="false"></uses-library>
-		<meta-data android:name="com.google.android.maps.v2.API_KEY"
-				   android:value="AIzaSyBjLC2LoKiZ54VpcJP_AOzq9TNvAZF5j6c">			
-		</meta-data>
-	
-		<uses-library android:name="org.apache.http.legacy"
-					  android:required="false"/>
+		<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyBjLC2LoKiZ54VpcJP_AOzq9TNvAZF5j6c"></meta-data>
+		<uses-library android:name="org.apache.http.legacy" android:required="false" />
 	</application>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />

@@ -90,9 +90,8 @@ namespace tcctelaTogepi.Views
             viewModel.MoverCameraUsuarioAsync(result);
         }
 
-        async void btnBuscar_ClickedAsync(object sender, EventArgs e)
+        private void btnBuscar_ClickedAsync(object sender, EventArgs e)
         {
-            await this.DisplayToastAsync("Hello, World", 10000);
         }
 
         private void btnSobre_Clicked(object sender, EventArgs e)

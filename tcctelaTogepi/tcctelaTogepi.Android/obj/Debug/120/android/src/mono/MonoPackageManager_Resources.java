@@ -1,8 +1,8 @@
 package mono;
 public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
-		/* We need to ensure that "tcctelaTogepi.Android.dll" comes first in this list. */
-		"tcctelaTogepi.Android.dll",
+		/* We need to ensure that "NavigationSafe.Android.dll" comes first in this list. */
+		"NavigationSafe.Android.dll",
 		"Firebase.dll",
 		"FormsViewGroup.dll",
 		"LiteDB.dll",

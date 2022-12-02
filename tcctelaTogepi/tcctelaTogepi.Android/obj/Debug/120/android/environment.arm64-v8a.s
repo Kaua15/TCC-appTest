@@ -1560,7 +1560,7 @@ application_config:
 
 	.type	.L.autostr.6, @object
 .L.autostr.6:
-	.asciz	"9ff68868-a694-4b53-ae26-a4e31803e126"
+	.asciz	"f64ad449-abe8-48bd-8592-6239e4a6180d"
 	.size	.L.autostr.6, 37
 
 	.type	.L.autostr.7, @object
@@ -1735,8 +1735,8 @@ application_config:
 
 	.type	.L.autostr.41, @object
 .L.autostr.41:
-	.asciz	"com.companyname.tcctelatogepi"
-	.size	.L.autostr.41, 30
+	.asciz	"br.com.grupoTogepi.NavigationSafe"
+	.size	.L.autostr.41, 34
 
 
 	.ident	"Xamarin.Android remotes/origin/d17-2 @ 4e061b739747f624ccb03c98940d8900548a98ad"

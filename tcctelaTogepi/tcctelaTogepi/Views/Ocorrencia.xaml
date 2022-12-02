@@ -35,8 +35,8 @@
                 </StackLayout>
                 <BoxView BackgroundColor="#454343" HeightRequest="1" HorizontalOptions="Center" WidthRequest="300"></BoxView>
                 <Grid>
-                    <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Margin="10">
-                        <ImageButton Source="ic_warning" HeightRequest="100" BackgroundColor="#33FF77" CornerRadius="50" Margin="10" Clicked="ImageButton_Clicked"/>
+                    <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Margin="20">
+                        <ImageButton Source="ic_weather"  CornerRadius="50" BackgroundColor="#33FF77"  Margin="30" Clicked="ImageButton_Clicked"/>
                         <Label Text="Tipo de Alerta" TextColor="#fff" HorizontalOptions="Center" VerticalOptions="Center" FontSize="20"/>
                     </StackLayout>
 
@@ -56,7 +56,7 @@
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="1.7*"/>
                     </Grid.ColumnDefinitions>
-                    <Button x:Name="btnVoltar" CornerRadius="50" Text="Voltar" FontSize="13" Padding="15, 16" BackgroundColor="#393939"  TextColor="#33FF77" />
+                    <Button x:Name="btnVoltar" CornerRadius="50" Text="Voltar" FontSize="13" Padding="15, 16" BackgroundColor="#393939"  TextColor="#33FF77" Clicked="btnVoltar_Clicked"/>
                     <Button x:Name="btnEnviar" Clicked="btnEnviar_Clicked" CornerRadius="50" Grid.Column="1" Text="Enviar" FontSize="15" FontAttributes="Bold"  Padding="5, 16" BackgroundColor="#33FF77"  TextColor="#2B2B2B"/>
                 </Grid>
             </Grid>
@@ -104,9 +104,9 @@
             </BoxView>
             <Frame BackgroundColor="#454343" CornerRadius="20" HeightRequest="400" VerticalOptions="End" Margin="0, 0, 0, -20">
                 <StackLayout HeightRequest="400" HorizontalOptions="Center" VerticalOptions="Center">
-                    <ImageButton x:Name="btnProblema1" Clicked="btnProblema1_Clicked" Margin="10" BackgroundColor="#fff" Source="ic_sms" HeightRequest="100" CornerRadius="20" VerticalOptions="Center" HorizontalOptions="Center"/>
-                    <ImageButton x:Name="btnProblema2" Clicked="btnProblema2_Clicked" Margin="10" BackgroundColor="#fff" Source="ic_sms" HeightRequest="100" CornerRadius="20" VerticalOptions="Center" HorizontalOptions="Center"/>
-                    <ImageButton x:Name="btnProblema3" Clicked="btnProblema3_Clicked" Margin="10" BackgroundColor="#fff" Source="ic_sms" HeightRequest="100" CornerRadius="20" VerticalOptions="Center" HorizontalOptions="Center"/>
+                    <ImageButton x:Name="btnProblema1" Clicked="btnProblema1_Clicked" Margin="10" BackgroundColor="#fff" Source="ic_tree" HeightRequest="100" CornerRadius="20" VerticalOptions="Center" HorizontalOptions="Center" Padding="15"/>
+                    <ImageButton x:Name="btnProblema2" Clicked="btnProblema2_Clicked" Margin="10" BackgroundColor="#fff" Source="ic_enchente" HeightRequest="100" CornerRadius="20" VerticalOptions="Center" HorizontalOptions="Center" Padding="15"/>
+                    <ImageButton x:Name="btnProblema3" Clicked="btnProblema3_Clicked" Margin="10" BackgroundColor="#fff" Source="ic_queimada" HeightRequest="100" CornerRadius="20" VerticalOptions="Center" HorizontalOptions="Center" Padding="15"/>
                 </StackLayout >
             </Frame>
 
