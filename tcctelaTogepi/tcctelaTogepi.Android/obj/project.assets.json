@@ -3811,11 +3811,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TCC-APP\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.Android\\tcctelaTogepi.Android.csproj",
+      "projectUniqueName": "D:\\tccatual\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.Android\\tcctelaTogepi.Android.csproj",
       "projectName": "NavigationSafe.Android",
-      "projectPath": "D:\\TCC-APP\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.Android\\tcctelaTogepi.Android.csproj",
+      "projectPath": "D:\\tccatual\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.Android\\tcctelaTogepi.Android.csproj",
       "packagesPath": "C:\\Users\\etechas\\.nuget\\packages\\",
-      "outputPath": "D:\\TCC-APP\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.Android\\obj\\",
+      "outputPath": "D:\\tccatual\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -3832,8 +3832,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "D:\\TCC-APP\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj": {
-              "projectPath": "D:\\TCC-APP\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj"
+            "D:\\tccatual\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj": {
+              "projectPath": "D:\\tccatual\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj"
             }
           }
         }

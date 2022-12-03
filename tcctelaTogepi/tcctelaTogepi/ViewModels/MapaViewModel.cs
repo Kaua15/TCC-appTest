@@ -7,7 +7,7 @@ using Xamarin.Forms.Maps;
 
 namespace tcctelaTogepi.ViewModels
 {
-    
+
     public class MapaViewModel
     {
         public static Map mapa;
@@ -33,26 +33,11 @@ namespace tcctelaTogepi.ViewModels
             }
         }
 
-        public async void LocalizarEscola()
+        public void MoverCameraPesquisar(Position posiPesquisa)
         {
-            try
-            {
-                Pin pinEtec = new Pin()
-                {
-                    Type = PinType.Place,
-                    Label = "Etec",
-                    Address = "Rua Alcântara, 113, Vila Guilherme",
-                    Position = new Position(-23.5200241d, -46.596498d)
-                };
-            }
-            catch(Exception ex)
-            {
-                await Application.Current.MainPage.DisplayAlert("Erro", ex.Message, "Ok");
-            }
+            mapa.MoveToRegion(MapSpan.FromCenterAndRadius(posiPesquisa, Xamarin.Forms.Maps.Distance.FromKilometers(1)));
         }
-
-
     }
 
-    
+
 }

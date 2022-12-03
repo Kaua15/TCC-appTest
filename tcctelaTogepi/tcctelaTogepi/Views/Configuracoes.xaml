@@ -15,6 +15,10 @@
             <ImageButton x:Name="btnVoltar" Clicked="btnVoltar_Clicked" Source="ic_arrow_back_ios"
         BackgroundColor="#2B2B2B" VerticalOptions="Center" HorizontalOptions="Start" Margin="10" CornerRadius="14" />
         </Grid>
+
+        <Grid Grid.Row="1">
+            <Label x:Name="txtTeste"/>
+        </Grid>
     </Grid>
     
 </ContentPage>

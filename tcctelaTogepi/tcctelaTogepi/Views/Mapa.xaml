@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:CustomRenderer;assembly=CustomRenderer" xmlns:local1="clr-namespace:tcctelaTogepi.Models">
 
     <!-- xmlns:maps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps" -->
-    <Grid RowSpacing="0"> 
+    <Grid RowSpacing="0">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="auto"/>
@@ -19,18 +19,18 @@
             </Grid.RowDefinitions>
 
             <local1:CustomMap Grid.RowSpan="2" Margin="0, 0, 0, -30" IsShowingUser="True" x:Name="map">
-                
+
             </local1:CustomMap>
 
-            
+
             <ImageButton x:Name="btnMenu" Clicked="btnMenu_Clicked" Source="ic_dehaze" BorderColor="Transparent"
                             BackgroundColor="#2B2B2B" VerticalOptions="Center" HorizontalOptions="Start" HeightRequest="45" Margin="14" CornerRadius="50" />
         </Grid>
-        
+
         <Grid Grid.Row="1" HeightRequest="62" ColumnSpacing="0" Margin="0, 0, 0, 0">
             <BoxView Background="#2B2B2B" CornerRadius="20" Margin="0, 0, 0, -20"></BoxView>
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center" Spacing="45">
-                <ImageButton x:Name="btnBuscar" Clicked="btnBuscar_ClickedAsync" Source="ic_search" BorderColor="Transparent"
+                <ImageButton x:Name="btnBuscar" Clicked="btnBuscar_Clicked" Source="ic_search" BorderColor="Transparent"
                             BackgroundColor="#2B2B2B" VerticalOptions="Center"  CornerRadius="50" Margin="5"/>
                 <ImageButton x:Name="btnHome" Clicked="btnHome_Clicked" Source="ic_home_filled" BorderColor="Transparent"
                             BackgroundColor="#2B2B2B" VerticalOptions="Center"  CornerRadius="50" Margin="5"/>
@@ -38,7 +38,30 @@
                             BackgroundColor="#2B2B2B" VerticalOptions="Center" CornerRadius="50" Margin="5" />
 
 
+            </StackLayout>
+        </Grid>
+
+
+        <Grid x:Name="Pesquisar" IsVisible="false" Margin="0, 0, 0, -60">
+            <BoxView x:Name="MenuOverlayPesquisar" Opacity="0.34">
+                <BoxView.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="CloseMenuPesquisar"/>
+                </BoxView.GestureRecognizers>
+            </BoxView>
+            <Grid x:Name="PesquisarMenu"  Grid.RowSpan="1" VerticalOptions="End" >
+                <Frame BackgroundColor="#454343" CornerRadius="20" HeightRequest="60" VerticalOptions="End" Margin="0, 0, 0, -20">
+                </Frame>
+                <StackLayout HorizontalOptions="Center" VerticalOptions="End" >
+                    <Frame BackgroundColor="#393939" CornerRadius="999" HorizontalOptions="FillAndExpand" Margin="0, 0, 0, 35">
+                        <StackLayout Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="Center" Padding="-10">
+                            <Image Source="ic_saved_search" HeightRequest="40"/>
+                            <Editor x:Name="txtPesquisar" TextColor="#fff" HorizontalOptions="Center" VerticalOptions="Center"  WidthRequest="200" Placeholder="Para onde?" PlaceholderColor="#545454" Opacity="0.5" Margin="0, 0, 10, 0" Keyboard="Default"/>
+                            <ImageButton x:Name="btnPesquisar" Source="ic_subdirectory_arrow_right" HeightRequest="40" BackgroundColor="#393939" CornerRadius="999" Margin="0, 0, 0, 0" Clicked="btnPesquisar_Clicked"/>
+                        </StackLayout>
+                    </Frame>
                 </StackLayout>
+            </Grid>
+
         </Grid>
 
         <Grid x:Name="MenuGrid" IsVisible="false">
@@ -58,7 +81,6 @@
                     </Grid.RowDefinitions>
                 </Grid>
                 <StackLayout HorizontalOptions="Center" VerticalOptions="Start" Spacing="0">
-
                     <Image Source="ic_warning" HeightRequest="100" Margin="10"/>
                     <BoxView BackgroundColor="#454343" HeightRequest="0.4" />
                     <Button  x:Name="btnLogin" Clicked="btnLogin_Clicked" Text="Login" BackgroundColor="#2B2B2B" TextColor="#fff" FontSize="10" WidthRequest="260" Padding="0, 20"/>
@@ -76,36 +98,9 @@
                     <BoxView BackgroundColor="#454343" HeightRequest="0.4" VerticalOptions="Center" Margin="20, 0"/>
                     <Button x:Name="btnSobre" Clicked="btnSobre_Clicked" Grid.Row="1" Text="Sobre" BackgroundColor="#454343" TextColor="#fff" FontSize="12" FontAttributes="Bold" Padding="0, 0, 0, 0" />
                 </Grid>
-                <!--
-                <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="20">
-                    <StackLayout Orientation="Horizontal" Spacing="20">
-                        <Grid Grid.Row="2" HorizontalOptions="Start" VerticalOptions="Start" HeightRequest="46" WidthRequest="46">
-                            <Ellipse WidthRequest="46" HeightRequest="46" Fill="White" Opacity="0.5"/>
-                        </Grid>
-                        <Label Text="Home" TextColor="White" FontSize="16" VerticalOptions="Center" FontFamily="NormalFont"/>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal" Spacing="20">
-                        <Grid Grid.Row="2" HorizontalOptions="Start" VerticalOptions="Start" HeightRequest="46" WidthRequest="46">
-                            <Ellipse WidthRequest="46" HeightRequest="46" Fill="White" Opacity="0.5"/>
-                        </Grid>
-                        <Label Text="Home" TextColor="White" FontSize="16" VerticalOptions="Center" FontFamily="NormalFont"/>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal" Spacing="20">
-                        <Grid Grid.Row="2" HorizontalOptions="Start" VerticalOptions="Start" HeightRequest="46" WidthRequest="46">
-                            <Ellipse WidthRequest="46" HeightRequest="46" Fill="White" Opacity="0.5"/>
-                        </Grid>
-                        <Label Text="Home" TextColor="White" FontSize="16" VerticalOptions="Center" FontFamily="NormalFont"/>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal" Spacing="20">
-                        <Grid Grid.Row="2" HorizontalOptions="Start" VerticalOptions="Start" HeightRequest="46" WidthRequest="46">
-                            <Ellipse WidthRequest="46" HeightRequest="46" Fill="White" Opacity="0.5"/>
-                        </Grid>
-                        <Label Text="Home" TextColor="White" FontSize="16" VerticalOptions="Center" FontFamily="NormalFont"/>
-                    </StackLayout>
-                </StackLayout>
-                -->
             </Grid>
-            
+
+
         </Grid>
     </Grid>
 </ContentPage>

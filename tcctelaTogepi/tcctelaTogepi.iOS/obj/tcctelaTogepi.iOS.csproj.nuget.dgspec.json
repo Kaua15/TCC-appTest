@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TCC-APP\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.iOS\\tcctelaTogepi.iOS.csproj": {}
+    "D:\\tccatual\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.iOS\\tcctelaTogepi.iOS.csproj": {}
   },
   "projects": {
-    "D:\\TCC-APP\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.iOS\\tcctelaTogepi.iOS.csproj": {
+    "D:\\tccatual\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.iOS\\tcctelaTogepi.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TCC-APP\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.iOS\\tcctelaTogepi.iOS.csproj",
+        "projectUniqueName": "D:\\tccatual\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.iOS\\tcctelaTogepi.iOS.csproj",
         "projectName": "tcctelaTogepi.iOS",
-        "projectPath": "D:\\TCC-APP\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.iOS\\tcctelaTogepi.iOS.csproj",
+        "projectPath": "D:\\tccatual\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.iOS\\tcctelaTogepi.iOS.csproj",
         "packagesPath": "C:\\Users\\etechas\\.nuget\\packages\\",
-        "outputPath": "D:\\TCC-APP\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.iOS\\obj\\",
+        "outputPath": "D:\\tccatual\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -28,8 +28,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "D:\\TCC-APP\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj": {
-                "projectPath": "D:\\TCC-APP\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj"
+              "D:\\tccatual\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj": {
+                "projectPath": "D:\\tccatual\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "D:\\TCC-APP\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj": {
+    "D:\\tccatual\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TCC-APP\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj",
+        "projectUniqueName": "D:\\tccatual\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj",
         "projectName": "tcctelaTogepi",
-        "projectPath": "D:\\TCC-APP\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj",
+        "projectPath": "D:\\tccatual\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj",
         "packagesPath": "C:\\Users\\etechas\\.nuget\\packages\\",
-        "outputPath": "D:\\TCC-APP\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\obj\\",
+        "outputPath": "D:\\tccatual\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\etechas\\AppData\\Roaming\\NuGet\\NuGet.Config",

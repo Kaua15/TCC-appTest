@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9oUzilLeWnZXt+TLVa/faQpQiJA7LlDGt2yECmyQ0I7pmllZWPhhhLWUfbxiNEt46gj1I1fXDXHpP2Gk6ATEEw==",
+  "dgSpecHash": "y75dWyjwc6dHsFbNvhTIofmqebkmq0IUySxy/qCx/YHFVaaBR5ifEZlV/uZd4kr8C0vMyPRUMTmVRDKnXKUHLQ==",
   "success": true,
-  "projectFilePath": "D:\\TCC-APP\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.Android\\tcctelaTogepi.Android.csproj",
+  "projectFilePath": "D:\\tccatual\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.Android\\tcctelaTogepi.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\etechas\\.nuget\\packages\\firebasedatabase.net\\4.1.0\\firebasedatabase.net.4.1.0.nupkg.sha512",
     "C:\\Users\\etechas\\.nuget\\packages\\litedb\\4.1.4\\litedb.4.1.4.nupkg.sha512",

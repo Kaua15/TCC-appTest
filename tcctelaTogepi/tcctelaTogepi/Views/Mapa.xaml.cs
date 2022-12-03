@@ -32,7 +32,6 @@ namespace tcctelaTogepi.Views
 
             var result = Geolocation.GetLocationAsync(new GeolocationRequest(GeolocationAccuracy.Default, TimeSpan.FromMinutes(1)));
             viewModel.MoverCameraUsuarioAsync(result);
-            viewModel.LocalizarEscola();   
         }
 
         private void btnSend_Clicked(object sender, EventArgs e)
@@ -44,7 +43,7 @@ namespace tcctelaTogepi.Views
         protected override async void OnAppearing()
         {
             var ocorrencias = await ocorrenciaRepository.GetAll();
-            foreach(Models.OcorrenciaModel o in ocorrencias)
+            foreach (Models.OcorrenciaModel o in ocorrencias)
             {
                 Pin pin = new Pin()
                 {
@@ -58,7 +57,7 @@ namespace tcctelaTogepi.Views
             }
 
         }
-        
+
 
         private void OpenMenu()
         {
@@ -73,6 +72,20 @@ namespace tcctelaTogepi.Views
             MenuView.Animate("anim", callback, 0, -260, 16, 300, Easing.CubicInOut);
 
             MenuGrid.IsVisible = false;
+        }
+
+        public void OpenMenuPesquisar()
+        {
+            Pesquisar.IsVisible = true;
+
+            Action<double> callback = input => Pesquisar.TranslationY = input;
+            Pesquisar.Animate("anim", callback, 100, 0, 1, 250, Easing.CubicIn);
+        }
+
+        private void CloseMenuPesquisar(object sender, EventArgs e)
+        {
+
+            Pesquisar.IsVisible = false;
         }
 
         private void btnMenu_Clicked(object sender, EventArgs e)
@@ -116,6 +129,42 @@ namespace tcctelaTogepi.Views
         {
             var pageSobre = new Configuracoes();
             App.Current.MainPage.Navigation.PushAsync(pageSobre);
+        }
+
+        private void btnBuscar_Clicked(object sender, EventArgs e)
+        {
+            Pesquisar.IsVisible = true;
+
+            Action<double> callback = input => Pesquisar.TranslationY = input;
+            Pesquisar.Animate("anim", callback, 100, 0, 1, 150, Easing.CubicIn);
+        }
+
+
+        private async void btnPesquisar_Clicked(object sender, EventArgs e)
+        {
+            try
+            {
+                string address = txtPesquisar.Text;
+
+                if (!string.IsNullOrEmpty(address))
+                {
+                    var locations = await Geocoding.GetLocationsAsync(address);
+
+                    var location = locations?.FirstOrDefault();
+
+                    if (location != null)
+                    {
+                        Position position = new Position(location.Latitude, location.Longitude);
+
+
+                        viewModel.MoverCameraPesquisar(position);
+                    }
+                }
+            }
+            catch
+            {
+
+            }
         }
     }
 }
