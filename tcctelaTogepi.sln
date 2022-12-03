@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tcctelaTogepi.Android", "tc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tcctelaTogepi.iOS", "tcctelaTogepi\tcctelaTogepi.iOS\tcctelaTogepi.iOS.csproj", "{9E804517-CD53-4FC9-929C-2BEFFED75F01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tcctelaTogepi", "tcctelaTogepi\tcctelaTogepi\tcctelaTogepi.csproj", "{93063459-1F97-4B01-98E9-A93DB2C3C65F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tcctelaTogepi", "tcctelaTogepi\tcctelaTogepi\tcctelaTogepi.csproj", "{93063459-1F97-4B01-98E9-A93DB2C3C65F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1768,20 +1768,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dilma\\.nuget\\packages\\": {}
+    "C:\\Users\\etechas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dilma\\Desktop\\TCC-kaua\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.iOS\\tcctelaTogepi.iOS.csproj",
+      "projectUniqueName": "D:\\TCC-APP\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.iOS\\tcctelaTogepi.iOS.csproj",
       "projectName": "tcctelaTogepi.iOS",
-      "projectPath": "C:\\Users\\dilma\\Desktop\\TCC-kaua\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.iOS\\tcctelaTogepi.iOS.csproj",
-      "packagesPath": "C:\\Users\\dilma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dilma\\Desktop\\TCC-kaua\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.iOS\\obj\\",
+      "projectPath": "D:\\TCC-APP\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.iOS\\tcctelaTogepi.iOS.csproj",
+      "packagesPath": "C:\\Users\\etechas\\.nuget\\packages\\",
+      "outputPath": "D:\\TCC-APP\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\dilma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\etechas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1794,8 +1794,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\dilma\\Desktop\\TCC-kaua\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj": {
-              "projectPath": "C:\\Users\\dilma\\Desktop\\TCC-kaua\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj"
+            "D:\\TCC-APP\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj": {
+              "projectPath": "D:\\TCC-APP\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj"
             }
           }
         }

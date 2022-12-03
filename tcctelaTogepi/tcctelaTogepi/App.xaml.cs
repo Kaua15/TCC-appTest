@@ -11,7 +11,7 @@ namespace tcctelaTogepi
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new Mapa());
+            MainPage = new NavigationPage(new Configuracoes());
             // MainPage = new Ocorrencia();
         }
 
