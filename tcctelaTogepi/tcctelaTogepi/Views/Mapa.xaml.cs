@@ -11,6 +11,7 @@ using Firebase.Database;
 using Xamarin.CommunityToolkit.Extensions;
 using Xamarin.Forms.Maps;
 using tcctelaTogepi.Models;
+using tcctelaTogepi.Services;
 
 namespace tcctelaTogepi.Views
 {
@@ -21,6 +22,8 @@ namespace tcctelaTogepi.Views
         OcorrenciaRepository ocorrenciaRepository = new OcorrenciaRepository();
         public Mapa()
         {
+
+            _ = this.getInfo();
             InitializeComponent();
             //var ocorrencias = await ocorrenciaRepository.GetAll();
 
@@ -33,10 +36,31 @@ namespace tcctelaTogepi.Views
             var result = Geolocation.GetLocationAsync(new GeolocationRequest(GeolocationAccuracy.Default, TimeSpan.FromMinutes(1)));
             viewModel.MoverCameraUsuarioAsync(result);
         }
+        private async Task getInfo()
+        {
+            try
+            {
+                ClimaTempo ct = new ClimaTempo();
+                Root Clima = await ct.GetClimaTempoAsync();
+                temperaturaAtual.Text = Convert.ToString(Clima.results.temp) + "º";
 
+                imgTempAtual.Source = ImageSource.FromFile(viewModel.getImage(Clima.results.condition_slug));
+            }
+            catch
+            {
+                throw;
+            }
+
+        }
         private void btnSend_Clicked(object sender, EventArgs e)
         {
             var page = new Ocorrencia();
+            App.Current.MainPage.Navigation.PushAsync(page);
+        }
+
+        private void OpenApiClima(object sender, EventArgs e)
+        {
+            var page = new APIClima();
             App.Current.MainPage.Navigation.PushAsync(page);
         }
 

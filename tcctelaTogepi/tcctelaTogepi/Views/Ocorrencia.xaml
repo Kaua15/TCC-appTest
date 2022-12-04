@@ -36,7 +36,7 @@
                 <BoxView BackgroundColor="#454343" HeightRequest="1" HorizontalOptions="Center" WidthRequest="300"></BoxView>
                 <Grid>
                     <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Margin="20">
-                        <ImageButton Source="ic_weather"  CornerRadius="50" BackgroundColor="#33FF77"  Margin="30" Clicked="ImageButton_Clicked"/>
+                        <ImageButton Source="ic_cloud" HeightRequest="75" CornerRadius="50" BackgroundColor="#33FF77"  Margin="30" Clicked="ImageButton_Clicked"/>
                         <Label Text="Tipo de Alerta" TextColor="#fff" HorizontalOptions="Center" VerticalOptions="Center" FontSize="20"/>
                     </StackLayout>
 

@@ -70,6 +70,11 @@ namespace tcctelaTogepi.Views
                 tempdia4.Text = Convert.ToString(((listDay[3].max + listDay[3].min) / 2)) + "º";
                 tempdia5.Text = Convert.ToString(((listDay[4].max + listDay[4].min) / 2)) + "º";
 
+                iconImgtodayCondition.Source = ImageSource.FromFile(getImage(Clima.results.condition_slug));
+                imgdia2.Source = ImageSource.FromFile(getImage(listDay[1].condition));
+                imgdia3.Source = ImageSource.FromFile(getImage(listDay[2].condition));
+                imgdia4.Source = ImageSource.FromFile(getImage(listDay[3].condition));
+                imgdia5.Source = ImageSource.FromFile(getImage(listDay[4].condition));
             }
             catch
             {
@@ -78,11 +83,43 @@ namespace tcctelaTogepi.Views
             }
 
         }
-        string getImage(string condition)
+        public string getImage(string condition)
         {
-            if(condition == "rain")
+            if(condition == "storm")
             {
-                return "";
+                return "ic_tempestade";
+            }
+            else if(condition == "snow")
+            {
+                return "ic_snow";
+            }
+            else if (condition == "hail")
+            {
+                return "ic_hailstorm";
+            }
+            else if (condition == "rain")
+            {
+                return "ic_rainy";
+            }
+            else if (condition == "clear_day")
+            {
+                return "ic_sunshine";
+            }
+            else if (condition == "clear_night")
+            {
+                return "ic_noiteLimpa";
+            }
+            else if (condition == "cloud")
+            {
+                return "ic_cloud";
+            }
+            else if (condition == "cloudly_day")
+            {
+                return "ic_cloudDia";
+            }
+            else if (condition == "cloudly_night")
+            {
+                return "ic_cloudNoite";
             }
             return "";
         }

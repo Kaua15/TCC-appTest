@@ -9496,3 +9496,13 @@ C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\
 C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\res\drawable\ic_sunshine.png
 C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\res\drawable\ic_cloudy.png
 C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\res\drawable\ic_hailstorm.png
+C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\res\drawable\ic_tempestade.png
+C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\res\drawable\ic_ventos.png
+C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\res\drawable\ic_cloud.png
+C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\res\drawable\ic_clouddia.png
+C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\res\drawable\ic_cloudnoite.png
+C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\res\drawable\ic_humidade.png
+C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\res\drawable\ic_maxtemp.png
+C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\res\drawable\ic_mintemp.png
+C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\res\drawable\ic_noitelimpa.png
+C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\res\drawable\ic_snow.png

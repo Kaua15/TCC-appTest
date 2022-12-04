@@ -11,7 +11,7 @@ namespace tcctelaTogepi
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new APIClima());
+            MainPage = new NavigationPage(new Mapa());
             // MainPage = new Ocorrencia();
         }
 

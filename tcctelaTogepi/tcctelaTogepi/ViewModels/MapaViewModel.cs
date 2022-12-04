@@ -18,6 +18,46 @@ namespace tcctelaTogepi.ViewModels
 
         }
 
+        public string getImage(string condition)
+        {
+            if (condition == "storm")
+            {
+                return "ic_tempestade";
+            }
+            else if (condition == "snow")
+            {
+                return "ic_snow";
+            }
+            else if (condition == "hail")
+            {
+                return "ic_hailstorm";
+            }
+            else if (condition == "rain")
+            {
+                return "ic_rainy";
+            }
+            else if (condition == "clear_day")
+            {
+                return "ic_sunshine";
+            }
+            else if (condition == "clear_night")
+            {
+                return "ic_noiteLimpa";
+            }
+            else if (condition == "cloud")
+            {
+                return "ic_cloud";
+            }
+            else if (condition == "cloudly_day")
+            {
+                return "ic_cloudDia";
+            }
+            else if (condition == "cloudly_night")
+            {
+                return "ic_cloudNoite";
+            }
+            return "";
+        }
 
         public async void MoverCameraUsuarioAsync(Task<Xamarin.Essentials.Location> userPosition)
         {
