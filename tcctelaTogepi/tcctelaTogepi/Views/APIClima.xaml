@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tcctelaTogepi.Views.APIClima"
+             BackgroundColor="#2B2B2B"
+             NavigationPage.HasNavigationBar="False">
+    <Grid RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="72"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid >
+            <ImageButton x:Name="btnVoltar" Source="ic_arrow_back_ios"
+        BackgroundColor="#2B2B2B" VerticalOptions="Center" HorizontalOptions="Start" Margin="10" CornerRadius="14" />
+        </Grid>
+
+        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" RowSpacing="0" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid>
+                <StackLayout Spacing="20">
+                    <StackLayout Orientation="Horizontal" Spacing="50" HorizontalOptions="Center">
+                        <StackLayout VerticalOptions="Center">
+                            <Image x:Name="iconImg" Source="ic_rainy" WidthRequest="67" HorizontalOptions="Center"/>
+                            <Label x:Name="todayCondition" Text="Nublado" TextColor="#fff" FontSize="13" HorizontalOptions="Center"/>
+                        </StackLayout>
+                        <StackLayout VerticalOptions="Center">
+                            <Label x:Name="cityTxt" Text="São Paulo" TextColor="#fff" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center"/>
+                            <Label x:Name="dateTxt" Text="Terça, 6 Dez" TextColor="#fff" FontSize="13" HorizontalOptions="Center"/>
+                        </StackLayout>
+                    </StackLayout>
+                    <StackLayout>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                            <Label x:Name="temperatureTxt" Text="25" TextColor="#fff" FontSize="120" HorizontalOptions="Center"/>
+                            <Label Text="º" TextColor="#fff" FontSize="70" HorizontalOptions="Center"/>
+                        </StackLayout>
+                        <Label Text="Celsius" Margin="0, -35, 0, 0" TextColor="#fff" FontSize="13" HorizontalOptions="Center"/>
+                    </StackLayout>
+                    <Grid WidthRequest="320" ColumnSpacing="10" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackLayout Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand">
+                            <Image Source="ic_rainy" HeightRequest="25" HorizontalOptions="Center"/>
+                            <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
+                                <Label x:Name="humidade" Text="50%" TextColor="#fff" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
+                                <Label Text="Humidade" TextColor="#fff" Margin="0, -5, 0, 0" FontSize="9" HorizontalOptions="Center"/>
+                            </StackLayout>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand" Grid.Column="1">
+                            <Image Source="ic_rainy" HeightRequest="25" HorizontalOptions="Center"/>
+                            <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
+                                <Label x:Name="ventos" Text="50%" TextColor="#fff" FontSize="10" FontAttributes="Bold" HorizontalOptions="Center"/>
+                                <Label Text="Ventos" TextColor="#fff" Margin="0, -5, 0, 0" FontSize="9" HorizontalOptions="Center"/>
+                            </StackLayout>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand" Grid.Column="2">
+                            <Image Source="ic_rainy" HeightRequest="25" HorizontalOptions="Center"/>
+                            <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
+                                <Label x:Name="max" Text="50%" TextColor="#fff" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
+                                <Label Text="Max" TextColor="#fff" Margin="0, -5, 0, 0" FontSize="9" HorizontalOptions="Center"/>
+                            </StackLayout>
+                        </StackLayout>
+                        
+                        <StackLayout Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand" Grid.Column="3">
+                            <Image Source="ic_rainy" HeightRequest="25" HorizontalOptions="Center"/>
+                            <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
+                                <Label x:Name="min" Text="50%" TextColor="#fff" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
+                                <Label Text="Min" TextColor="#fff" Margin="0, -5, 0, 0" FontSize="9" HorizontalOptions="Center"/>
+                            </StackLayout>
+                        </StackLayout>
+
+                    </Grid>
+                </StackLayout>
+            </Grid>
+            
+            
+            <Grid Grid.Row="1" HeightRequest="160" ColumnSpacing="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid BackgroundColor="#777777" Opacity="0.9">
+                    <StackLayout>
+                        <Label x:Name="dia2Nome" Text="Quarta" TextColor="#fff" FontSize="13" HorizontalOptions="Center"/>
+                        <Label x:Name="datadia2" Margin="0, -5, 0, 0" Text="7 Dec" TextColor="#fff" FontSize="10" HorizontalOptions="Center"/>
+                        <Image x:Name="imgdia2" Source="ic_rainy" Margin="0, 5"  HeightRequest="42"/>
+                        <Label x:Name="tempdia2" Text="22º" TextColor="#fff" FontSize="23" HorizontalOptions="Center"/>
+                    </StackLayout>
+                </Grid>
+
+                <Grid BackgroundColor="#777777" Opacity="0.6" Grid.Column="1">
+                    <StackLayout>
+                        <Label x:Name="dia3Nome" Text="Quarta" TextColor="#fff" FontSize="13" HorizontalOptions="Center"/>
+                        <Label Margin="0, -5, 0, 0" x:Name="datadia3" Text="7 Dec" TextColor="#fff" FontSize="10" HorizontalOptions="Center"/>
+                        <Image x:Name="imgdia3" Source="ic_rainy" Margin="0, 5"  HeightRequest="42"/>
+                        <Label x:Name="tempdia3" Text="22º" TextColor="#fff" FontSize="23" HorizontalOptions="Center"/>
+                    </StackLayout>
+                </Grid>
+
+                <Grid BackgroundColor="#777777" Opacity="0.4" Grid.Column="2">
+                    <StackLayout>
+                        <Label x:Name="dia4Nome" Text="Quarta" TextColor="#fff" FontSize="13" HorizontalOptions="Center"/>
+                        <Label Margin="0, -5, 0, 0" Text="7 Dec" x:Name="datadia4" TextColor="#fff" FontSize="10" HorizontalOptions="Center"/>
+                        <Image x:Name="imgdia4" Source="ic_rainy" Margin="0, 5"  HeightRequest="42"/>
+                        <Label x:Name="tempdia4" Text="22º" TextColor="#fff" FontSize="23" HorizontalOptions="Center"/>
+                    </StackLayout>
+                </Grid>
+
+                <Grid BackgroundColor="#777777" Opacity="0.2" Grid.Column="3">
+                    <StackLayout>
+                        <Label x:Name="dia5Nome" Text="Quarta"  TextColor="#fff" FontSize="13" HorizontalOptions="Center"/>
+                        <Label Margin="0, -5, 0, 0" Text="7 Dec" x:Name="datadia5" TextColor="#fff" FontSize="10" HorizontalOptions="Center"/>
+                        <Image x:Name="imgdia5" Source="ic_rainy" Margin="0, 5"  HeightRequest="42"/>
+                        <Label x:Name="tempdia5" Text="22º" TextColor="#fff" FontSize="23" HorizontalOptions="Center"/>
+                    </StackLayout>
+                </Grid>
+            </Grid>
+        </Grid>
+        
+    </Grid>
+</ContentPage>

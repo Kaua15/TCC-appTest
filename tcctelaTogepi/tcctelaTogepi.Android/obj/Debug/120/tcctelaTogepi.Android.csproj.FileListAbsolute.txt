@@ -7288,7 +7288,6 @@ C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\
 C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\res\drawable\ic_search.png
 C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\res\drawable\ic_sms.png
 C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\res\drawable\ic_warning.png
-C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\res\drawable\ic_weather.png
 C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\uploadflags.txt
 C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\resolvedassemblies.hash
 C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\android\assets\Firebase.dll
@@ -9489,3 +9488,11 @@ D:\tccatual\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\stamp\
 D:\tccatual\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\stamp\_GenerateJavaStubs.stamp
 D:\tccatual\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 D:\tccatual\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\res\drawable\ic_create.png
+C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\res\drawable\ic_saved_search.png
+C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\res\drawable\ic_subdirectory_arrow_right.png
+C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\res\drawable\ic_rainy_day.png
+C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\res\drawable\ic_rainy.png
+C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\res\drawable\ic_sunshine.png
+C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\res\drawable\ic_cloudy.png
+C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi.Android\obj\Debug\120\res\drawable\ic_hailstorm.png

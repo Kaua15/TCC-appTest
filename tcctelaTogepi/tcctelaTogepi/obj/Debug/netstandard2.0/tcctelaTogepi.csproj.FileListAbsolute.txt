@@ -233,3 +233,4 @@ D:\tccatual\TCC-appTest\tcctelaTogepi\tcctelaTogepi\obj\Debug\netstandard2.0\tcc
 D:\tccatual\TCC-appTest\tcctelaTogepi\tcctelaTogepi\obj\Debug\netstandard2.0\refint\tcctelaTogepi.dll
 D:\tccatual\TCC-appTest\tcctelaTogepi\tcctelaTogepi\obj\Debug\netstandard2.0\tcctelaTogepi.pdb
 D:\tccatual\TCC-appTest\tcctelaTogepi\tcctelaTogepi\obj\Debug\netstandard2.0\ref\tcctelaTogepi.dll
+C:\Users\dilma\Desktop\TCC-kaua\TCC-appTest\tcctelaTogepi\tcctelaTogepi\obj\Debug\netstandard2.0\Views\APIClima.xaml.g.cs

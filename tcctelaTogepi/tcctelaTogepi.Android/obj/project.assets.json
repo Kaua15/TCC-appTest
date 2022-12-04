@@ -3806,20 +3806,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\etechas\\.nuget\\packages\\": {}
+    "C:\\Users\\dilma\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\tccatual\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.Android\\tcctelaTogepi.Android.csproj",
+      "projectUniqueName": "C:\\Users\\dilma\\Desktop\\TCC-kaua\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.Android\\tcctelaTogepi.Android.csproj",
       "projectName": "NavigationSafe.Android",
-      "projectPath": "D:\\tccatual\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.Android\\tcctelaTogepi.Android.csproj",
-      "packagesPath": "C:\\Users\\etechas\\.nuget\\packages\\",
-      "outputPath": "D:\\tccatual\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.Android\\obj\\",
+      "projectPath": "C:\\Users\\dilma\\Desktop\\TCC-kaua\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.Android\\tcctelaTogepi.Android.csproj",
+      "packagesPath": "C:\\Users\\dilma\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dilma\\Desktop\\TCC-kaua\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\etechas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dilma\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3832,8 +3832,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "D:\\tccatual\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj": {
-              "projectPath": "D:\\tccatual\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj"
+            "C:\\Users\\dilma\\Desktop\\TCC-kaua\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj": {
+              "projectPath": "C:\\Users\\dilma\\Desktop\\TCC-kaua\\TCC-appTest\\tcctelaTogepi\\tcctelaTogepi\\tcctelaTogepi.csproj"
             }
           }
         }

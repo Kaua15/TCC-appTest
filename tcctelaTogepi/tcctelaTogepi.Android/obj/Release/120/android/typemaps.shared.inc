@@ -102,58 +102,58 @@ map_aname.19:
 
 	.type	map_aname.20, @object
 map_aname.20:
-	.asciz	"NavigationSafe.Android"
-	.size	map_aname.20, 23
+	.asciz	"Xamarin.AndroidX.DrawerLayout"
+	.size	map_aname.20, 30
 
 	.type	map_aname.21, @object
 map_aname.21:
-	.asciz	"Xamarin.AndroidX.DrawerLayout"
+	.asciz	"Xamarin.AndroidX.RecyclerView"
 	.size	map_aname.21, 30
 
 	.type	map_aname.22, @object
 map_aname.22:
-	.asciz	"Xamarin.AndroidX.RecyclerView"
-	.size	map_aname.22, 30
+	.asciz	"FormsViewGroup"
+	.size	map_aname.22, 15
 
 	.type	map_aname.23, @object
 map_aname.23:
-	.asciz	"FormsViewGroup"
-	.size	map_aname.23, 15
+	.asciz	"Xamarin.AndroidX.Core"
+	.size	map_aname.23, 22
 
 	.type	map_aname.24, @object
 map_aname.24:
-	.asciz	"Xamarin.AndroidX.Core"
-	.size	map_aname.24, 22
+	.asciz	"Xamarin.Google.Guava.ListenableFuture"
+	.size	map_aname.24, 38
 
 	.type	map_aname.25, @object
 map_aname.25:
-	.asciz	"Xamarin.Google.Guava.ListenableFuture"
-	.size	map_aname.25, 38
+	.asciz	"Xamarin.AndroidX.CustomView"
+	.size	map_aname.25, 28
 
 	.type	map_aname.26, @object
 map_aname.26:
-	.asciz	"Xamarin.AndroidX.CustomView"
-	.size	map_aname.26, 28
+	.asciz	"Xamarin.GooglePlayServices.Base"
+	.size	map_aname.26, 32
 
 	.type	map_aname.27, @object
 map_aname.27:
-	.asciz	"Xamarin.GooglePlayServices.Base"
-	.size	map_aname.27, 32
+	.asciz	"Xamarin.AndroidX.CoordinatorLayout"
+	.size	map_aname.27, 35
 
 	.type	map_aname.28, @object
 map_aname.28:
-	.asciz	"Xamarin.AndroidX.CoordinatorLayout"
-	.size	map_aname.28, 35
+	.asciz	"Xamarin.AndroidX.AppCompat"
+	.size	map_aname.28, 27
 
 	.type	map_aname.29, @object
 map_aname.29:
-	.asciz	"Xamarin.AndroidX.AppCompat"
-	.size	map_aname.29, 27
+	.asciz	"Mono.Android"
+	.size	map_aname.29, 13
 
 	.type	map_aname.30, @object
 map_aname.30:
-	.asciz	"Mono.Android"
-	.size	map_aname.30, 13
+	.asciz	"NavigationSafe.Android"
+	.size	map_aname.30, 23
 
 	.type	map_aname.31, @object
 map_aname.31:

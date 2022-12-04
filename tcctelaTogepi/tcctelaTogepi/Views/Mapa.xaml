@@ -64,6 +64,26 @@
 
         </Grid>
 
+
+        <Grid Grid.RowSpan="1" VerticalOptions="End" HorizontalOptions="Start" Margin="20">
+            <StackLayout Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="Center">
+                <Image Source="ic_rainy" WidthRequest="40" HeightRequest="40"/>
+                <Label Text="21º" FontSize="20" FontAttributes="Italic"/>
+            </StackLayout>
+            <BoxView BackgroundColor="Transparent" HeightRequest="50" WidthRequest="70" VerticalOptions="Center" HorizontalOptions="Center">
+                <BoxView.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="btnLogin_Clicked"/>
+                    
+                </BoxView.GestureRecognizers>
+                
+                
+            </BoxView>
+            
+
+        </Grid>
+
+        
+        
         <Grid x:Name="MenuGrid" IsVisible="false">
             <BoxView x:Name="MenuOverlay" >
                 <BoxView.GestureRecognizers>
